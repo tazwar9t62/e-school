@@ -1,0 +1,42 @@
+.container {
+  margin-bottom: 80px;
+}
+
+.navbar-nav li {
+  padding-left: 30px;
+}
+
+.header {
+  padding: 20px 40px;
+}
+.header-text h6 {
+  color: red;
+}
+.header-text h1 {
+  font-weight: bolder;
+  font-size: 60px;
+}
+.header-text p {
+  color: dimgray;
+}
+#green-color {
+  color: green;
+}
+.button-green {
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 8px 30px;
+  background-color: green;
+}
+
+/* .each-item img {
+  padding-top: 30px;
+} */
+.each-item h3 {
+  padding-top: 30px;
+}
+.without-icon h3 {
+  padding-top: 120px;
+}
