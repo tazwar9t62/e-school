@@ -2,6 +2,10 @@
   margin-bottom: 80px;
 }
 
+.bg-color {
+  background-color: #f0fff0;
+}
+
 .navbar-nav li {
   padding-left: 30px;
 }
@@ -10,7 +14,7 @@
   padding: 20px 40px;
 }
 .header-text h6 {
-  color: red;
+  color: #fd511a;
 }
 .header-text h1 {
   font-weight: bolder;
@@ -20,7 +24,7 @@
   color: dimgray;
 }
 #green-color {
-  color: green;
+  color: #21b573;
 }
 .button-green {
   color: white;
@@ -28,15 +32,93 @@
   border-radius: 30px;
   cursor: pointer;
   padding: 8px 30px;
-  background-color: green;
+  background-color: #21b573;
+}
+.button-green:hover {
+  opacity: 0.8;
+}
+.each-item h4,
+.card-body h4 {
+  padding-top: 30px;
+  color: #413960;
 }
 
-/* .each-item img {
-  padding-top: 30px;
-} */
-.each-item h3 {
-  padding-top: 30px;
+.info {
+  height: 230px;
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0fff0;
 }
-.without-icon h3 {
-  padding-top: 120px;
+.info:hover {
+  box-shadow: 0px 3px 20px lightgray;
+  background-color: white;
+}
+
+.card-body p {
+  color: #585859;
+}
+
+.card-footer img {
+  height: 24px;
+  width: 24px;
+}
+.card-footer h6 {
+  color: #585859;
+}
+.courses-title {
+  color: #413960;
+  margin-bottom: 50px;
+}
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 10px 10px lightgray;
+}
+.card-footer {
+  padding: 0 25px;
+  border-top: none;
+  border-radius: 8px;
+  background-color: white;
+}
+.carousel-info {
+  padding: 20px 40px;
+}
+.carousel-info img {
+  border-radius: 50%;
+  padding-left: 40px;
+}
+.carousel-indicators li {
+  background-color: #cecece;
+  height: 10px;
+  width: 16px;
+  border-radius: 6px;
+  border: none;
+}
+
+.carousel-indicators .active {
+  width: 45px;
+  background-image: linear-gradient(45deg, #21b573, #a1f5cf);
+}
+
+.testimonial-title h2 {
+  font-weight: 1000;
+}
+.testimonial-title {
+  margin-bottom: 50px;
+}
+
+.footer-bg {
+  background-color: #282531;
+}
+
+.footer-text {
+  padding: 50px 50px;
+}
+
+#credits {
+  text-align: center;
+}
+* {
+  transition: 0.3s all ease-in-out;
 }
